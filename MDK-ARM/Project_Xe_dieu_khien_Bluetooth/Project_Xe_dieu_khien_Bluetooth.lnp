@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"project_xe_dieu_khien_bluetooth\startup_stm32f103xb.o"
+"project_xe_dieu_khien_bluetooth\main.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_it.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_msp.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_gpio_ex.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_tim.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_tim_ex.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_rcc.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_rcc_ex.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_gpio.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_dma.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_cortex.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_pwr.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_flash.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_flash_ex.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_exti.o"
+"project_xe_dieu_khien_bluetooth\stm32f1xx_hal_uart.o"
+"project_xe_dieu_khien_bluetooth\system_stm32f1xx.o"
+"project_xe_dieu_khien_bluetooth\motor.o"
+"project_xe_dieu_khien_bluetooth\pwm.o"
+"project_xe_dieu_khien_bluetooth\car.o"
+--strict --scatter "Project_Xe_dieu_khien_Bluetooth\Project_Xe_dieu_khien_Bluetooth.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Project_Xe_dieu_khien_Bluetooth.map" -o Project_Xe_dieu_khien_Bluetooth\Project_Xe_dieu_khien_Bluetooth.axf
